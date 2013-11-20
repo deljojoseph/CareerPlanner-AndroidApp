@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sliit.rda"
+    package="com.ilmi.rda"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -35,12 +35,12 @@
 android:value="AIzaSyDlZzVON1stNth-BKmx1Al3QxP1cX1pyRU"/>
         
         <activity
-            android:name=".MainActivity"
+            android:name="com.ilmi.rda.MainActivity"
             android:label="@string/app_name" >
         </activity>
         
         <activity
-            android:name=".SplashScreen" >
+            android:name="com.ilmi.rda.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,14 +48,14 @@ android:value="AIzaSyDlZzVON1stNth-BKmx1Al3QxP1cX1pyRU"/>
             </intent-filter>
         </activity>
        
-            <activity android:name="CheckSingleEmployee" />
-             <activity android:name="AndroidclientActivity2" />
-        	<activity android:name="Login" />
-          	<activity android:name="ShowEmployees" />  
-       		<activity android:name="AndroidclientActivity" />  
-       		<activity android:name="UpdateWebService" />  
-       		<activity android:name="stuMyMentor" />  
-       		<activity android:name="StuMyAccount" />  
+            <activity android:name="com.sliit.rda.CheckSingleEmployee" />
+             <activity android:name="com.sliit.rda.AndroidclientActivity2" />
+        	<activity android:name="com.sliit.rda.Login" />
+          	<activity android:name="com.sliit.rda.ShowEmployees" />  
+       		<activity android:name="com.sliit.rda.AndroidclientActivity" />  
+       		<activity android:name="com.sliit.rda.UpdateWebService" />  
+       		<activity android:name="com.sliit.rda.stuMyMentor" />  
+       		<activity android:name="com.sliit.rda.StuMyAccount" />  
     </application>
 
 </manifest>
